@@ -1,6 +1,5 @@
 import React from 'react'
-import SquareAnimation from '../components/squareAnimation.js'
-
+import Gltf from '../components/gltf.js'
 
 
 export default class Home extends React.Component {
@@ -10,7 +9,7 @@ export default class Home extends React.Component {
 
   render() {
     return (
-        <SquareAnimation />
+        <Gltf/>
     )
   }
 }
